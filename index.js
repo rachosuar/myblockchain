@@ -1,2 +1,2 @@
-const Blockchain = require('./src/blockchain');
-const Block = require('./src/block');
+const Blockchain = require("./src/blockchain");
+const Block = require("./src/block");
