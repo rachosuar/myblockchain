@@ -1,8 +1,6 @@
 const SHA256 = require("crypto-js/sha256");
 const CryptoJS = require("crypto-js");
 
-const crypto = require("crypto");
-
 class Block {
   constructor(data, prevHash = "") {
     this.timestamp = Date.now();
